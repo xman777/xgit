@@ -45,6 +45,7 @@ public class HttpsClientUtil {
 		String url = "http://localhost/api/ask/ask_index1";
 		String jsonStr = "categoryId=120&uid=30886";
 		String httpOrgCreateTestRtn = HttpsClientUtil.doPost(url, jsonStr, "utf-8");
+		System.out.println(httpOrgCreateTestRtn);
 	}
 
 }
