@@ -9,13 +9,11 @@ import org.apache.http.message.BasicHeader;
 import org.apache.http.util.EntityUtils;
 
 /**
- * 利用HttpClient进行post请求的工具类
- * 
- * @ClassName: HttpClientUtil
- * @Description: TODO
- * @author x
- * @date 2017年2月7日 下午1:43:38
- * 
+ * 利用HttpClient进行post请求的工具类 
+ * TODO: get和post方式的http请求获取参数
+ * @author xman
+ * @time 2017年2月7日 下午1:43:38
+ * @version v1.0
  */
 public class HttpsClientUtil {
 	@SuppressWarnings("resource")

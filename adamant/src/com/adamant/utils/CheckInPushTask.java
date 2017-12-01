@@ -8,7 +8,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 签到任务奖励推送工具类
+ * 定时任务执行工具类
  * @author xman
  * @time 2017-3-13 下午3:43:19
  * @version 1.3.x
