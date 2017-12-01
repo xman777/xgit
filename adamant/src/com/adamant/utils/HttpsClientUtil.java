@@ -16,7 +16,6 @@ import org.apache.http.util.EntityUtils;
  * @version v1.0
  */
 public class HttpsClientUtil {
-	@SuppressWarnings("resource")
 	public static String doPost(String url, String jsonstr, String charset) {
 		HttpClient httpClient = null;
 		HttpPost httpPost = null;
